@@ -1,0 +1,22 @@
+This document is for informational purposes only.
+If redistributing this archive, please include this file so that others may benefit from 
+the information included herein.
+
+All included files are, or have previously been, released into the public domain - CC0
+No credit is required.
+
+mausoleum_1_001.blend - https://opengameart.org/content/mausoleum_1 - Paul_Wortmann - cc0
+Included is the blend file, as well as obj exports of each piece.
+
+The textures were derived from:
+(They have been modified)
+0.0 https://opengameart.org/node/10172                  arikel     CC0
+1.0 https://opengameart.org/content/commission-medieval yughues    CC0
+0.1 https://opengameart.org/content/medievalbrick       beaterator CC0
+1.1 https://opengameart.org/content/medivel-stone-floor musdasch   CC0
+
+Preview image 1:
+Blender 2.79b
+
+Preview image 2:
+Blender 2.79b
