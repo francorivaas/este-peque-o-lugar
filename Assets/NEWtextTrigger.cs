@@ -1,0 +1,37 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class NEWtextTrigger : MonoBehaviour
+{
+    [Header("Text")]
+    [SerializeField] private GameObject TextToTrigger;
+    [SerializeField] private GameObject nextTextToTrigger;
+
+    [Header("Text")]
+    [SerializeField] private GameObject objectToTrigger;
+
+    public bool playerIsNear;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (playerIsNear)
+        {
+            TextToTrigger.SetActive(true);
+            nextTextToTrigger.SetActive(true);
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+            playerIsNear = true;
+    }
+}
