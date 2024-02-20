@@ -8,7 +8,7 @@ public class TextDisplay : MonoBehaviour
     public Text dialogueText;
     public string[] dialogue;
     private int index;
-
+    public int linesAmount;
     public float wordSpeed;
 
     private void Start()
@@ -19,7 +19,11 @@ public class TextDisplay : MonoBehaviour
     private void Update()
     {
         if (Input.GetMouseButtonDown(0)) NextLine();
+        if (linesAmount == 2)
+        {
+        }
     }
+
     public void ZeroText()
     {
         dialogueText.text = "";
@@ -38,6 +42,7 @@ public class TextDisplay : MonoBehaviour
 
     public void NextLine()
     {
+        linesAmount += 1;
         if (index < dialogue.Length - 1)
         {
             index++;
