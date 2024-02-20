@@ -24,8 +24,17 @@ public class NEWtextTrigger : MonoBehaviour
     {
         if (playerIsNear)
         {
-            TextToTrigger.SetActive(true);
-            nextTextToTrigger.SetActive(true);
+            if (TextToTrigger && nextTextToTrigger != null)
+            {
+                TextToTrigger.SetActive(true);
+                nextTextToTrigger.SetActive(true);
+            }
+
+
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Destroy(TextToTrigger);
+            }
         }
     }
 
