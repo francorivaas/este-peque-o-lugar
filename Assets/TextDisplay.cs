@@ -10,6 +10,10 @@ public class TextDisplay : MonoBehaviour
     private int index;
     public int linesAmount;
     public float wordSpeed;
+    
+    public bool playerIsNear;
+    public bool canStartCounting;
+    public float timeToShowText;
 
     private void Start()
     {
@@ -19,9 +23,20 @@ public class TextDisplay : MonoBehaviour
     private void Update()
     {
         if (Input.GetMouseButtonDown(0)) NextLine();
-        if (linesAmount == 2)
+        if (linesAmount == 3)
         {
+            canStartCounting = true;
         }
+        //if (canStartCounting) 
+        //{
+        //    ZeroText();
+        //    timeToShowText -= Time.deltaTime;
+        //    if (timeToShowText <= 0)
+        //    {
+        //        NextLine();
+        //        canStartCounting = false;
+        //    }
+        //}
     }
 
     public void ZeroText()
