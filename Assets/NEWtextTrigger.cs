@@ -12,6 +12,8 @@ public class NEWtextTrigger : MonoBehaviour
     [SerializeField] private GameObject objectToTrigger;
 
     public bool playerIsNear;
+    public bool canStartCounting;
+    public float timeToShowText;
 
     // Start is called before the first frame update
     void Start()
