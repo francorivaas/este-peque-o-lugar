@@ -8095,6 +8095,85 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &438736586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 438736587}
+  - component: {fileID: 438736589}
+  - component: {fileID: 438736588}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &438736587
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438736586}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1264520917}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &438736588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438736586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: eff7b5d2675da0048a4782fa0d0dbe20, type: 3}
+    m_FontSize: 60
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 80
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: este lugar que me vio crecer.
+--- !u!222 &438736589
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438736586}
+  m_CullTransparentMesh: 1
 --- !u!1 &441828651
 GameObject:
   m_ObjectHideFlags: 0
@@ -9473,6 +9552,79 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &531768448
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 422120ae20735a04cbe5da67412a424e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 422120ae20735a04cbe5da67412a424e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 422120ae20735a04cbe5da67412a424e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 422120ae20735a04cbe5da67412a424e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 229.37
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 422120ae20735a04cbe5da67412a424e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.11
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 422120ae20735a04cbe5da67412a424e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 244.95
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 422120ae20735a04cbe5da67412a424e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.43046018
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 422120ae20735a04cbe5da67412a424e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.5609857
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 422120ae20735a04cbe5da67412a424e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.56098485
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 422120ae20735a04cbe5da67412a424e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.4304593
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 422120ae20735a04cbe5da67412a424e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 422120ae20735a04cbe5da67412a424e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 105
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 422120ae20735a04cbe5da67412a424e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 422120ae20735a04cbe5da67412a424e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bc584b8ebde5a03478fe052419dfc00a, type: 2}
+    - target: {fileID: 919132149155446097, guid: 422120ae20735a04cbe5da67412a424e, type: 3}
+      propertyPath: m_Name
+      value: coffin_002
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 422120ae20735a04cbe5da67412a424e, type: 3}
 --- !u!1 &537590859
 GameObject:
   m_ObjectHideFlags: 0
@@ -14347,6 +14499,7 @@ RectTransform:
   - {fileID: 1039021433}
   - {fileID: 376884884}
   - {fileID: 1655111448}
+  - {fileID: 1264520917}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -15626,6 +15779,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &895859952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 895859953}
+  m_Layer: 0
+  m_Name: event manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &895859953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895859952}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 355.793, y: 158.61325, z: 68.9795}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &896785481
 GameObject:
   m_ObjectHideFlags: 0
@@ -16383,7 +16567,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &952288092
 Transform:
   m_ObjectHideFlags: 0
@@ -20612,6 +20796,8 @@ MonoBehaviour:
   nextTextToTrigger: {fileID: 0}
   objectToTrigger: {fileID: 0}
   playerIsNear: 0
+  canStartCounting: 0
+  timeToShowText: 0
 --- !u!65 &1150652794
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22370,6 +22556,79 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1264520916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1264520917}
+  - component: {fileID: 1264520919}
+  - component: {fileID: 1264520918}
+  m_Layer: 5
+  m_Name: game title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1264520917
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264520916}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 438736587}
+  m_Father: {fileID: 809913819}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1264520918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264520916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1264520919
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264520916}
+  m_CullTransparentMesh: 1
 --- !u!1 &1274002856
 GameObject:
   m_ObjectHideFlags: 0
@@ -29425,23 +29684,70 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 411884609}
   dialogue:
-  - "en este lugar fue que me mataron. dentro de ella, detr\xE1s de ella o frente
-    a ella\u2026 No estoy segura, pero fue en esta iglesia donde hicieron que me
-    ahogue con mi propia lengua, que me cortaron en el c\xEDrculo de \xE1rboles torcidos."
-  - "me arrastraron por el bosque, haciendo que mis rodillas golpeen contra las piedras.
-    haci\xE9ndome sangrar. tir\xE1ndome del cabello, haciendo que de mi cuero cabelludo
-    se desprendan hilos sanguinolentos."
-  - "todo empez\xF3 con la fiebre. todos enfermaron y el mundo comenz\xF3 a pudrirse.
-    los que sobrevivimos no ten\xEDamos ata\xFAdes de nuestro tama\xF1o y los que
-    a\xFAn no mor\xEDan nos observaban sugerentes, mientras nos escond\xEDamos en
-    las profundidades del bosque. aterrados."
-  - me re cague encima
-  - re nazi
+  - "este fue el lugar donde me mataron. no v\xED en qu\xE9 parte, porque la sangre
+    me escoc\xEDa los ojos. pero s\xE9 que fue ac\xE1 donde me arrancaron la lengua
+    e hicieron que me ahogara con ella."
+  - me golpearon hasta dejarme inconsciente.
+  - me arrastraron por el bosque, haciendo que mis rodillas se arrastren por la grava.
+  - me corrompieron.
+  - me rompieron.
+  - "y luego me sacrificaron\u2026"
+  - "todo comenz\xF3 con la gran fiebre, que arras\xF3 con el mundo como lo conoc\xEDamos.
+    nunca en mi vida hab\xEDa visto tantos ata\xFAdes, y los que sobrevivimos no
+    contabamos con ata\xFAdes de nuestro tama\xF1o. los adultos se ocultaban en sus
+    hogares y nos miraban a nosotros, ocultos detr\xE1s de las cortinas."
+  - cobardes.
+  - "pero no pod\xEDamos culparlos. \xA1ni siquiera hoy! mientras ellos se enterraban
+    y se lloraban y se quebraban los miembros para entrar en los ata\xFAdes, nosotros
+    bail\xE1bamos en las calles, alegres, indiferentes al caos reinante y al cielo
+    que se hac\xEDa m\xE1s oscuro con cada visita del sol."
+  - "la fiebre no nos afectaba. no hab\xEDa ata\xFAdes para nosotros en ninguna parte."
+  - con el tiempo comenzamos nosotros mismos a enterrar a los otros. uno a uno. les
+    quebramos las piernas, justo en la rodilla, y la doblamos con fuerza, haciendo
+    que sus dedos del pie lleguen a la cintura.
+  - "pod\xEDamos sentir el dolor, por m\xE1s muertos que estuvieran."
+  - "con el tiempo, mientras nos adue\xF1\xE1bamos de las calles, los otros comenzaron
+    a congregarse. al principio hac\xEDan ruido, bullicio."
+  - "pero las reuniones eran cada vez m\xE1s silenciosas."
+  - "y cuando salieron, mientras esper\xE1bamos detr\xE1s de una puerta, ansiosos
+    por o\xEDr algunas palabras que no fueran c\xE1nticos incomprensibles, salieron
+    a nuestra caza. a cazarnos uno a uno, mientras corr\xEDamos despavoridos por
+    las calles y nos met\xEDamos en los callejones y dorm\xEDamos en la basura, arropados
+    con cartones."
+  - "uno a uno fueron cayendo, todos los que hab\xEDan sido llamados impuros e inmunes
+    a la fiebre. marcados por el diablo. enviados por el mismo demonio. encomendados
+    a la misi\xF3n de destruirlo todo a nuestro paso."
+  - nos mataron a todos y nos enterraron en las calles.
+  - "con el tiempo encontraron placer en la matanza, mientras el cielo se te\xF1\xEDa
+    de rojo y el clima se hac\xEDa \xE1spero y el ox\xEDgeno pesado para nuestros
+    pulmones."
+  - "se deleitaban con la sangre que borboteaba y hac\xEDan g\xE1rgaras con nuestros
+    intestinos. nos devoraban como si no hubieran probado la carne en a\xF1os. degustaron
+    nuestros huesos con una gula asquerosa."
+  - "pero mientras m\xE1s com\xEDan, m\xE1s hambre ten\xEDan. "
+  - "mientras m\xE1s oscuro el cielo, m\xE1s deliciosa nuestra sangre."
+  - "mientras m\xE1s sacrificios. m\xE1s enfermo el mundo."
+  - "y para cuando yo emerg\xED de mi escondite el mundo ya estaba podrido. ya no
+    hab\xEDa nadie en este mundo y de los fosos donde hab\xEDan sido enterrados los
+    ni\xF1os comenzaron a escaparse los ata\xFAdes."
+  - "los que pudimos nos ocultamos, pero \xEDbamos cayendo, uno a uno igualmente."
+  - "y mientras yo recorr\xEDa el nuevo mundo fue que me atraparon."
+  - "pero hoy me levant\xE9 de mi propio ata\xFAd, y camino sobre el suelo de piedra,
+    bajo el cielo rojo."
+  - "los ata\xFAdes de los ni\xF1os ya no est\xE1n, y en su lugar hay \xE1rboles
+    con ramas como venas, titilantes, pulsantes."
+  - "tal vez los sacrificios hayan funcionado despu\xE9s de todo. porque los \xE1rboles
+    comenzaron a crecer. fuertes. altos."
+  - camino en el infierno. esperando a que resurjan de la tierra. y formar juntos
+    un nuevo mundo.
+  - ya no hay nada que temer.
   linesAmount: 0
   wordSpeed: 0.06
   playerIsNear: 0
   canStartCounting: 0
   timeToShowText: 3
+  gameTitle: {fileID: 1264520916}
+  coffins: {fileID: 0}
 --- !u!1 &1658841555
 GameObject:
   m_ObjectHideFlags: 0
@@ -29902,6 +30208,8 @@ MonoBehaviour:
   nextTextToTrigger: {fileID: 1150652792}
   objectToTrigger: {fileID: 0}
   playerIsNear: 0
+  canStartCounting: 0
+  timeToShowText: 0
 --- !u!65 &1677602751
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39943,3 +40251,5 @@ SceneRoots:
   - {fileID: 952288092}
   - {fileID: 561162488}
   - {fileID: 1900066583}
+  - {fileID: 895859953}
+  - {fileID: 531768448}

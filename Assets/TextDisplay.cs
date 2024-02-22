@@ -15,6 +15,8 @@ public class TextDisplay : MonoBehaviour
     public bool canStartCounting;
     public float timeToShowText;
 
+    public GameObject gameTitle;
+    public GameObject coffins;
     private void Start()
     {
         StartCoroutine(Typing());    
@@ -23,20 +25,23 @@ public class TextDisplay : MonoBehaviour
     private void Update()
     {
         if (Input.GetMouseButtonDown(0)) NextLine();
-        if (linesAmount == 3)
+        if (linesAmount == 6)
         {
+            if (gameTitle != null) gameTitle.SetActive(true);
             canStartCounting = true;
         }
-        //if (canStartCounting) 
-        //{
-        //    ZeroText();
-        //    timeToShowText -= Time.deltaTime;
-        //    if (timeToShowText <= 0)
-        //    {
-        //        NextLine();
-        //        canStartCounting = false;
-        //    }
-        //}
+
+
+
+        if (canStartCounting)
+        {
+            timeToShowText -= Time.deltaTime;
+            if (timeToShowText <= 0)
+            {
+                Destroy(gameTitle);
+                canStartCounting = false;
+            }
+        }
     }
 
     public void ZeroText()
